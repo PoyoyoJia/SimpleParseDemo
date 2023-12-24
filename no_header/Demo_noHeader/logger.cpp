@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-struct Logger {
+class Logger {
 public:
 	enum LogLevel
 	{

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <chrono>
 
-struct util_timer
+class util_timer
 {
 public:
 	util_timer(const char* user)

@@ -160,7 +160,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdr
     <node id="1">
       <data key="labelV">META_DATA</data>
       <data key="node__META_DATA__LANGUAGE">NEWC</data>
-      <data key="node__META_DATA__ROOT">D:\Projects\CCFTools\demo\Demo1\_Demo1\Demo_noheader</data>
+      <data key="node__META_DATA__ROOT">D:\Projects\CCFTools\demo\Demo1\_Demo1\no_header\Demo_noHeader</data>
       <data key="node__META_DATA__VERSION">0.1</data>
     </node>
     <node id="2">
@@ -2644,7 +2644,7 @@ xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdr
       <data key="node__TYPE_DECL__AST_PARENT_FULL_NAME"/>
       <data key="node__TYPE_DECL__ORDER">1</data>
       <data key="node__TYPE_DECL__CODE">
-        struct Logger {
+        class Logger {
 public:
 	enum LogLevel
 	{
@@ -2698,7 +2698,7 @@ private:
 		std::cout &lt;&lt; &quot;log warn &quot; &lt;&lt; from &lt;&lt; &quot; -&gt; &quot; &lt;&lt; message &lt;&lt; std::endl;
 	}
 
-	void WriteError(const char* from, const char* m...
+	void WriteError(const char* from, const char* me...
       </data>
       <data key="node__TYPE_DECL__COLUMN_NUMBER">1</data>
       <data key="node__TYPE_DECL__FULL_NAME">Logger</data>
@@ -4617,7 +4617,7 @@ private:
       <data key="node__TYPE_DECL__AST_PARENT_FULL_NAME"/>
       <data key="node__TYPE_DECL__ORDER">1</data>
       <data key="node__TYPE_DECL__CODE">
-        struct util_timer
+        class util_timer
 {
 public:
 	util_timer(const char* user)
